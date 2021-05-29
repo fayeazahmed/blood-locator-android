@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:layout_constraintTop_toTopOf="parent"
+        mapbox:mapbox_cameraTargetLat="35.73581"
+        mapbox:mapbox_cameraTargetLng="90.99155"
+        mapbox:mapbox_cameraZoom="9" />
+
+
+    <RelativeLayout
+        android:id="@+id/spinnerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/background_spinner">
+
+        <Spinner
+            android:id="@+id/spinnerMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="match_parent"
+            android:dropDownVerticalOffset="70dp"
+            android:gravity="end"
+            android:paddingTop="35dp"
+            android:paddingBottom="35dp"
+            android:popupBackground="#17000000"
+            android:spinnerMode="dropdown" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/infoBtn"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="40dp"
+        android:onClick="showInfo"
+        android:background="@drawable/ic_baseline_info_24"
+        android:contentDescription="@string/info_btn" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="87dp"
+        android:contentDescription="@string/fab_action"
+        android:src="@drawable/ic_get_position" />
+
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Blood Locator</string>
+    <string name="fab_action">Move camera to current location</string>
+    <string name="info_btn">Click to see info</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZmF5ZWF6YWhtZWQiLCJhIjoiY2tjYW5paHF2MWtsMjJycWVkMzB2YzAwcyJ9.ZuCDw7Z9JflJotaK8TRLhQ</string>
+    <string name="label">Blood group</string>
+
+    <string name="snackbar_message">Add yourself as donor</string>
+    <string name="snackbar_action">Proceed</string>
+
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string name="delete_record"><u>Delete this entry</u></string>
+    <string name="delete_pw">Enter the password you added to this record</string>
+
+    <string name="label_name">Donor name</string>
+    <string name="label_location">Location</string>
+    <string name="label_contact">Contact</string>
+
+    <string name="form_name">Your name</string>
+    <string name="form_address">Your address</string>
+    <string name="form_contact">Contact number</string>
+    <string name="form_pw">Password</string>
+    <string name="form_pwlabel">Associate a password to remove your info later if you wish</string>
+    <string name="form_btn">Submit</string>
+
+    <string name="info_desc">Button to go back</string>
+    <string name="app_info">Hello, this is Ahmed. I built this project while learning android studio. Blood Locator is an app where we can search for blood donors filtered by blood group on the map (powered by <i>Mapbox</i>), then look up contact details.
+        The donor records can be added by the user themselves.\nUsage - If you tap the gps button, it will locate your position and prompt you to add your info on the map. Or you can long click (hold) a point on the map,
+        and add an entry in that position as well. To search for blood, just pick a blood group option and see if there\'s any blood marker nearby.
+    </string>
+</resources>

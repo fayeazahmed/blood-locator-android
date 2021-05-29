@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702072635362",
+    "project_id": "blood-locator-9a9a3",
+    "storage_bucket": "blood-locator-9a9a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702072635362:android:33cfd5e30fe7d7245c83bb",
+        "android_client_info": {
+          "package_name": "com.example.bloodlocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702072635362-1m0ha4a1r0bcuf1nprjhcl8pvgk4qhhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe6HQEFg7KqB9t3jly6qjQMM2sTfEj9dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702072635362-1m0ha4a1r0bcuf1nprjhcl8pvgk4qhhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

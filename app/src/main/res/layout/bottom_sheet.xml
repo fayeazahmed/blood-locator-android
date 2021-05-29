@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background_dialog"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/diaogBloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EC6E0F"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/label_name"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/diaogName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:text="@string/label_location" />
+    <TextView
+        android:id="@+id/diaogLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:text="@string/label_contact" />
+    <TextView
+        android:id="@+id/diaogContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/delBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_record"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:textColor="#FCEF2929"
+        android:textStyle="italic" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="@string/delete_pw"
+        android:visibility="gone"
+        android:id="@+id/diaogDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:autofillHints="password"
+        android:imeOptions="actionGo"
+        android:inputType="textPassword" />
+
+</LinearLayout>

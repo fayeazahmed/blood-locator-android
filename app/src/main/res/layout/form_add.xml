@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/formSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/formName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/form_name"
+        android:inputType="text"
+        android:padding="18dp"
+        android:singleLine="true"
+        android:textColor="#EC6E0F"
+        android:autofillHints="fullName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/formAddress"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textColor="#EC6E0F"
+        android:autofillHints="address"
+        android:hint="@string/form_address"/>
+
+    <EditText
+        android:id="@+id/formContact"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textColor="#EC6E0F"
+        android:autofillHints="contact"
+        android:hint="@string/form_contact"/>
+
+    <EditText
+        android:id="@+id/formPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textColor="#EC6E0F"
+        android:autofillHints="contact"
+        android:hint="@string/form_pw"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/form_pwlabel"
+        android:textColor="#6E2C2C"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="@string/form_btn"
+        style="@style/Widget.MaterialComponents.Button" />
+</LinearLayout>
